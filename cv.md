@@ -19,3 +19,29 @@ I am a person who loves self-development and learning new things. I set goals wh
 
 I want to become an experienced web development specialist, so I am glad studying front-end development at RS school. I want to gain knowledge that will help me find a job in your company.
 ____________________
+
+## Skills
+
+* HTML, CSS 
+* JavaScript (Fundamentals)
+* С++, Python, SQL (Basic knowledge)
+* Version control: Git (remote service GitHub)
+* PHP (Fundamentals)
+
+## Education
+
+ * GeekBrains (Artificial Intelligence)
+
+ * St. Petersburg State University of Telecommunications. prof. M. A. Bonch-Bruevich 
+ 
+ * JavaScript Manual on learnjavascript.ru 
+ ____________________
+
+ ## Language
+
+ * Russian - Native
+
+ * English -  Intermediate 
+ 
+ * Deutsch - A2-B1
+ 
