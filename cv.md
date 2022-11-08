@@ -37,6 +37,39 @@ ____________________
  * JavaScript Manual on learnjavascript.ru 
  ____________________
 
+ ## Code example 
+```
+let size = 6;
+
+let index = 0;
+
+let maxIndex = 0;
+
+let max = numbers[maxIndex];
+
+while (index < size) {
+  
+  if (numbers[index] > max) {
+  
+  maxIndex = index;
+  
+  max = numbers[index];
+
+}
+
+ index++;
+
+}
+
+let element = numbers[size-1];
+
+numbers[size-1] = max;
+
+numbers[maxIndex] = element;
+
+console.log(numbers);
+```
+
  ## Language
 
  * Russian - Native
@@ -44,4 +77,3 @@ ____________________
  * English -  Intermediate 
  
  * Deutsch - A2-B1
- 
