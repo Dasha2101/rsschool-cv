@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link src="style.css">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-        <header>
+        <header class="Name">
             <h2>Shilnikova Daria</h2>
-            <hr>
         </header>
         <h3>Contact information:</h3>
         <nav>
@@ -20,70 +19,77 @@
                 <li><a href="https://web.telegram.org/z/#5149989289">My Telegram</a></li>
                 <li><a href="linkedin.com/in/daria-shilnikova-96844a253">My Linkedln</a></li>
               </ul>
-            <hr>
+            
         </nav>
-   
         <section>
+            <section>
             <h2>Summary</h2>
-            <p>Currently, I am a student majoring in information systems and technology. Therefore, 
+            <p>
+                Currently, I am a student majoring in information systems and technology. Therefore, 
                 I have experience with different programming languages at a basic level. Recently I`ve got interested in web development. 
                 It became so interesting to me that I decided to develop myself and work in this direction. 
                 Therefore, I spend all my time learning Frontend development.
+            </p>
+            <p>
                 I am a person who loves self-development and learning new things. I set goals which I follow to the end.
                 I want to become an experienced web development specialist, so I am glad studying front-end development at RS school. 
-                I want to gain knowledge that will help me find a job in your company.</p>   
-            <hr>
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML, CSS</li>
-                <li>JavaScript (Fundamentals)</li>
-                <li>С++, Python, SQL (Basic knowledge)</li>
-                <li>Version control: Git (remote service GitHub)</li>
-                <li>PHP (Fundamentals)</li>
-            </ul>
-            <hr>
-            <h2>Education</h2>
-            <ul>
-                <li>St. Petersburg State University of Telecommunications. prof. M. A. Bonch-Bruevich</li>
-                <li>GeekBrains (Artificial Intelligence)</li>
-                <li>JavaScript Manual on learnjavascript.ru</li>
-            </ul>
-            <hr>
-            <h2>Code example</h2>
-            <pre>
-                <code>
-                    let = [1, 14, 15, 4, 54];
-                    let size = 6;
-                    let index = 0;
-                    let maxIndex = 0;
-                    let max = numbers[maxIndex];
-                    while (index &lt; size) {
-                        if (numbers[index] > max) {
-                            maxIndex = index;
-                            max = numbers[index];
-                        }
-                            index++;
-                        }
-                    let element = numbers[size-1];
-                    numbers[size-1] = max;
-                    numbers[maxIndex] = element;
-                    console.log(numbers);
-                </code>
-            </pre>
-            <hr>
-            <h2>Language</h2>
-            <ul>
-                <li>Russian - Native</li>
-                <li>English - Intermediate</li>
-                <li>Deutsch - A2-B1</li> 
-            </ul>
-            <hr>
+                I want to gain knowledge that will help me find a job in your company.
+            </p>   
+            </section>
+            <section class = "Skills"> 
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML, CSS</li>
+                    <li>JavaScript (Fundamentals)</li>
+                    <li>С++, Python, SQL (Basic knowledge)</li>
+                    <li>Version control: Git (remote service GitHub)</li>
+                    <li>PHP (Fundamentals)</li>
+                </ul>
+            </section>         
+            <section>
+                <h2>Education</h2>
+                <section id="Education">
+                    <p>St. Petersburg State University of Telecommunications. prof. M. A. Bonch-Bruevich</p>
+                    <p>GeekBrains (Artificial Intelligence)</p>
+                    <p>JavaScript Manual on learnjavascript.ru</p>
+                </section>   
+            </section>
+            <section>
+                <h2>Code example</h2>
+                <pre>
+                    <code>
+                        let = [1, 14, 15, 4, 54];
+                        let size = 6;
+                        let index = 0;
+                        let maxIndex = 0;
+                        let max = numbers[maxIndex];
+                        while (index &lt; size) {
+                            if (numbers[index] > max) {
+                                maxIndex = index;
+                                max = numbers[index];
+                            }
+                                index++;
+                            }
+                        let element = numbers[size-1];
+                        numbers[size-1] = max;
+                        numbers[maxIndex] = element;
+                        console.log(numbers);
+                    </code>
+                </pre>
+            </section>
+            <section>
+                <h2>Language</h2>
+                <ul class="Li">
+                    <li>Russian - Native</li>
+                    <li>English - Intermediate</li>
+                    <li>Deutsch - A2-B1</li> 
+                </ul>
+            </section>
         </section>
-        <footer>     
-            
-            <a href="https://github.com/rolling-scopes-school/js-fe-course-en/tree/main/UpSkillMe"><img src="rs_school.svg" alt="RS Logo" height="30px"></a>
+        <footer>      
+            <a href="https://github.com/rolling-scopes-school/js-fe-course-en/tree/main/UpSkillMe"><img id="footer-logo" src="rs_school.svg" alt="RS Logo" height="30"></a>
             <a href="https://github.com/Dasha2101">GitHub</a>
-            <time datetime="2022-11-11T17:20">11.11.2022 17:20</time>          
+            <time datetime="2022-11-11T17:20">11.11.2022</time>          
         </footer>
 </body>
 </html>
