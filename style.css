@@ -6,9 +6,9 @@
     font-size: 25px;
     background-color: rgb(148, 117, 131);
     height: 45px;
-    overflow: hidden;   
+    overflow: hidden;
 }
- 
+
 body{
     background:rgba(246, 220, 230, 0.403);
     padding: 0;
@@ -58,7 +58,7 @@ p{
     margin-left: 280px;
     font-size: 17px;
 
-}   
+}
 .Skills{
     font-family: 'Chicago', sefif;
     font-size: 17px;
@@ -80,13 +80,12 @@ footer{
     font-size: 27px;
     background-color: rgb(148, 117, 131);
     height: 45px;
-    overflow: hidden;   
+    overflow: hidden;
 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-   
 }
 
 #footer-logo{
