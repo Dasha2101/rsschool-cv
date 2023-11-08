@@ -1,1 +1,1 @@
-[links](https://github.com/Dasha2101/rsschool-cv)
+[links](https://dasha2101.github.io/rsschool-cv/)
